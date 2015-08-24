@@ -5,8 +5,5 @@ class BasicMath
     {
         return a + b;
     }
-
-    // TODO: subtract
-	// TODO: multiply
-	// TODO: divide
+   
 }

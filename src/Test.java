@@ -4,12 +4,12 @@ class Test
     {
         testSum();
     }
-
+    
     private static void testSum()
     {
-        int a = 5;
+        int a = 30;
         int b = 6;
-        int expected = 11;
+        int expected = 36;
         BasicMath bm = new BasicMath();
         int result = bm.sum(a, b);
         if (result == expected)
