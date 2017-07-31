@@ -21,4 +21,21 @@ class Test
             System.out.println("Sum: Failed, expected = " + expected + ", result = " + result);
         }
     }
+
+    private static void testMultiply()
+    {
+        int a = 6;
+        int b = 11;
+        int expected = 66;
+        BasicMath bm = new BasicMath();
+        int result = bm.multiply(a, b);
+        if (result == expected)
+        {
+            System.out.println("Multiply: OK");
+        }
+        else
+        {
+            System.out.println("Multiply: Failed, expected = " + expected + ", result = " + result);
+        }
+    }
 }
